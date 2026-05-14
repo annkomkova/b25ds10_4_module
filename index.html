@@ -5,8 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Музей "Огни Москвы"</title>
     <link rel="stylesheet" href="stylesheets/style.css" />
+    <script src="javascripts/scripts.js" defer></script>
   </head>
   <body>
+    <div id="burger"></div>
+
     <nav class="mainMenu">
       <a class="mainMenuLink active" href="index.html">Главная</a>
       <a class="mainMenuLink" href="about.html">О проекте</a>
@@ -39,6 +42,12 @@
       <span class="placeholder">
         <input type="tel" name="phone" value="" placeholder="" />
       </span>
+
+      <button type="submit">Отправить</button>
     </form>
+
+    <div class="modalWindow">
+      <div class="window"></div>
+    </div>
   </body>
 </html>
